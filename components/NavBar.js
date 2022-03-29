@@ -46,7 +46,7 @@ import Link from 'next/link'
             <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
             </Link>
                 <Link href="/create-nfts">
-            <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFt</a>
+            {/* <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFt</a> */}
             </Link>
                 
           </div>
