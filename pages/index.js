@@ -151,7 +151,7 @@ export default function Home() {
 
  
            }else{
-               window.alert("You are at Wrong Netweok, Connect with Binance Please")
+               window.alert("You are at Wrong Network, Connect with Binance smart chain Please")
            }
 
 
@@ -194,7 +194,7 @@ const buyNFT = async (nftItem)=>{
              (unsoldItems.length < 5 )?
               <>
               <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-yellow-500 sm:text-5xl md:text-6xl">
-                  <span className="block lg:py-3 xl:inline">BEST CLASE AZUL CLUB ARTISTS</span>
+                  <span className="block lg:py-3 xl:inline">Only BEST of the best CLASE AZUL CLUB ARTISTS</span>
                   </h1> 
              </>:
              <>
