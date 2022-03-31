@@ -39,7 +39,7 @@ export default function Home() {
                 })
             } else {
 
-              window.alert(" UNlock Your Wallet Or Please install any provider wallet like MetaMask")
+              window.alert(" Unlock Your Wallet Or Please install any provider wallet like MetaMask")
                 
               router.push("https://metamask.io/download.html")
             }
@@ -47,7 +47,7 @@ export default function Home() {
 
         }
 
-        loadProvider()
+        // loadProvider()
     },[])
     //Create LoadAccounts Function
     const[account,setAccount]= useState(null);
